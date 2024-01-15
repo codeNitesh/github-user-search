@@ -13,6 +13,9 @@ import UserTable from './components/UserTable/UserTable.tsx';
 // types
 import type { User } from './types';
 
+// css
+import './App.css';
+
 const App: React.FC = () => {
   const [results, setResults] = useState<User[]>([]);
   const [error, setError] = useState<string | null>(null);
