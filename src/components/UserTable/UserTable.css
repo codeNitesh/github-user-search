@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+    color: black;
+    /* border: 1px solid gray; */
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.flex-td {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}

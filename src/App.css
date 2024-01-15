@@ -1,0 +1,33 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+}
+
+.body-container{
+    width: 60vw;
+    /* max-height: 100vh;
+    min-height: auto; */
+    color: white;
+    overflow: scroll;
+
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+
+.h1-text, .p-text{
+    text-align: center;
+}
+
+.p-text{
+    font-size: 18px;
+    font-weight: bold;
+}
